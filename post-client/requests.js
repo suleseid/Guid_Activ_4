@@ -25,7 +25,7 @@ class Requests{
         });
         //await the response to be converted to json
         const resData = await response.json();
-        //return the data
+        //This can return the data
         return resData;
       }
            //Put request
